@@ -22,5 +22,5 @@ jobs:
           application_name: frontend
           environment_name: Frontend-env
           version_label: ${{ github.sha }} # Usa o código do commit como versão
-          region: us-east-1
+          region: eu-north-1
           deployment_package: deploy.zip
